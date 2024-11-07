@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "fabio-josh-demo"
+  annotations:
+    "humanitec.com/orgId": "ml-test"
+    "humanitec.com/appId": "fabio-josh-demo"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
